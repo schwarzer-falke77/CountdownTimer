@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #50B8CE;
+background: -moz-radial-gradient(center, #50B8CE 0%, #3D88A4 50%, #968788 100%);
+background: -webkit-radial-gradient(center, #50B8CE 0%, #3D88A4 50%, #968788 100%);
+background: radial-gradient(ellipse at center, #50B8CE 0%, #3D88A4 50%, #968788 100%);
+}
+header h1{
+    text-align: center;
+    color:black;
+}
+.marioreis{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-down{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    border: 2px rgb(61, 50, 50) solid;
+    width: 600px;
+    height: 250px;
+    -webkit-box-shadow: 5px 5px 11px 5px #000000; 
+    box-shadow: 5px 5px 11px 5px #000000;
+}
+.time{
+    font-family:Poppins,sans-serif ;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+.infos{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+    
+}
+.beautiful{
+    font-family:Poppins,sans-serif;
+    color: rgb(39, 56, 20);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    list-style: inside;
+}
